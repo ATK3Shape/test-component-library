@@ -1,5 +1,5 @@
 {
-  "name": "test-component-library",
+  "name": "@atk3shape/test-component-library",
   "version": "0.0.1",
   "description": "A test react component library",
   "scripts": {
@@ -24,5 +24,8 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/atk3shape"
+  }
 }
