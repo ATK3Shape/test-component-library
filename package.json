@@ -1,6 +1,6 @@
 {
   "name": "@atk3shape/test-component-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A test react component library",
   "scripts": {
     "rollup": "rollup -c"
