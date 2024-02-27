@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "A test react component library",
   "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
@@ -12,7 +13,6 @@
   },
   "author": "ATK",
   "license": "ISC",
-  "type": "module",
   "keywords": [
     "components",
     "library",
@@ -33,6 +33,5 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/atk3shape"
-  },
-  "module": "dist/esm/index.js"
+  }
 }
