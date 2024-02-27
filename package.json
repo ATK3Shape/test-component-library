@@ -1,6 +1,6 @@
 {
   "name": "@atk3shape/test-component-library",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A test react component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
