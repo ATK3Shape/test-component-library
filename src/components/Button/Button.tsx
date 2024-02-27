@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { FC, ReactNode, MouseEventHandler } from "react"
 
 interface ButtonProps {
-    label: string;
+    children: ReactNode | ReactNode[];
+    onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-const Button = (props: ButtonProps) => {
-    return <button>{props.label}</button>;
+const Button:FC<ButtonProps> = ({children, onClick}) => {
+    return <button onClick={onClick}>{children}</button>;
 }
 
 export default Button;
